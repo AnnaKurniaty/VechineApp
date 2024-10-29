@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Kendaraan</title>
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Edit Kendaraan</h1>
+        <form id="edit-vehicle-form">
+            <div class="form-group">
+                <label for="nomorRegistrasi">Nomor Registrasi</label>
+                <input type="text" class="form-control" id="nomorRegistrasi" required readonly>
+            </div>
+            <div class="form-group">
+                <label for="namaPemilik">Nama Pemilik</label>
+                <input type="text" class="form-control" id="namaPemilik" required>
+            </div>
+            <div class="form-group">
+                <label for="alamat">Alamat</label>
+                <input type="text" class="form-control" id="alamat">
+            </div>
+            <div class="form-group">
+                <label for="merkKendaraan">Merk Kendaraan</label>
+                <input type="text" class="form-control" id="merkKendaraan">
+            </div>
+            <div class="form-group">
+                <label for="tahunPembuatan">Tahun Pembuatan</label>
+                <input type="number" class="form-control" id="tahunPembuatan" min="1900" max="2100" required>
+            </div>
+            <div class="form-group">
+                <label for="kapasitasSilinder">Kapasitas Silinder</label>
+                <input type="number" class="form-control" id="kapasitasSilinder">
+            </div>
+            <div class="form-group">
+                <label for="warnaKendaraan">Warna Kendaraan</label>
+                <select class="form-control" id="warnaKendaraan" required>
+                    <option value="">Pilih Warna</option>
+                    <option value="Merah">Merah</option>
+                    <option value="Hitam">Hitam</option>
+                    <option value="Biru">Biru</option>
+                    <option value="Abu-Abu">Abu-Abu</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="bahanBakar">Bahan Bakar</label>
+                <input type="text" class="form-control" id="bahanBakar">
+            </div>
+            <button type="submit" class="btn btn-primary">Update</button>
+            <button type="button" class="btn btn-secondary" onclick="window.location.href='index.html'">Kembali</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/kendaraan.js"></script>
+</body>
+</html>

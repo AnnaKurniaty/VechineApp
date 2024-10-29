@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Kendaraan</title>
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Aplikasi Data Kendaraan</h1>
+
+        <!-- Form Pencarian -->
+        <div class="form-group">
+            <label for="searchReg">No Registrasi:</label>
+            <input type="text" id="searchReg" class="form-control" placeholder="Masukkan No Registrasi">
+        </div>
+        <div class="form-group">
+            <label for="searchOwner">Nama Pemilik:</label>
+            <input type="text" id="searchOwner" class="form-control" placeholder="Masukkan Nama Pemilik">
+        </div>
+        <button id="search-button" class="btn btn-primary">Search</button>
+        <button id="add-vehicle" class="btn btn-success" onclick="window.location.href='add_kendaraan.html'">Tambah Kendaraan</button>
+
+        <table id="vehicle-table" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Nomor Registrasi</th>
+                    <th>Nama Pemilik</th>
+                    <th>Alamat</th>
+                    <th>Merk</th>
+                    <th>Tahun Pembuatan</th>
+                    <th>Kapasitas Silinder</th>
+                    <th>Warna</th>
+                    <th>Bahan Bakar</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

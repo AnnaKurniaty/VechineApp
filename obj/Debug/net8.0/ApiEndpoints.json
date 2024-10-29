@@ -1,0 +1,132 @@
+[
+  {
+    "ContainingType": "Aplikasi_Data_Kendaraan.Controllers.KendaraanController",
+    "Method": "GetKendaraans",
+    "RelativePath": "api/Kendaraan",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Aplikasi_Data_Kendaraan.Models.Kendaraan, Aplikasi Data Kendaraan, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Aplikasi_Data_Kendaraan.Controllers.KendaraanController",
+    "Method": "CreateKendaraan",
+    "RelativePath": "api/Kendaraan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "kendaraan",
+        "Type": "Aplikasi_Data_Kendaraan.Models.Kendaraan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Aplikasi_Data_Kendaraan.Models.Kendaraan",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Aplikasi_Data_Kendaraan.Controllers.KendaraanController",
+    "Method": "GetKendaraan",
+    "RelativePath": "api/Kendaraan/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Aplikasi_Data_Kendaraan.Models.Kendaraan",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Aplikasi_Data_Kendaraan.Controllers.KendaraanController",
+    "Method": "UpdateKendaraan",
+    "RelativePath": "api/Kendaraan/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "kendaraan",
+        "Type": "Aplikasi_Data_Kendaraan.Models.Kendaraan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aplikasi_Data_Kendaraan.Controllers.KendaraanController",
+    "Method": "DeleteKendaraan",
+    "RelativePath": "api/Kendaraan/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aplikasi_Data_Kendaraan.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Aplikasi_Data_Kendaraan.WeatherForecast, Aplikasi Data Kendaraan, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

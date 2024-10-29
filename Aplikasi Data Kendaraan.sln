@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aplikasi Data Kendaraan", "Aplikasi Data Kendaraan.csproj", "{E96D46A4-5B0A-46DC-9A81-FB5E11E7C224}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleApp", "..\CleanArchitecture\VehicleApp\VehicleApp.csproj", "{80AD9B86-4234-42C5-AAC9-7E787C37E2BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E96D46A4-5B0A-46DC-9A81-FB5E11E7C224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E96D46A4-5B0A-46DC-9A81-FB5E11E7C224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E96D46A4-5B0A-46DC-9A81-FB5E11E7C224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E96D46A4-5B0A-46DC-9A81-FB5E11E7C224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80AD9B86-4234-42C5-AAC9-7E787C37E2BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80AD9B86-4234-42C5-AAC9-7E787C37E2BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80AD9B86-4234-42C5-AAC9-7E787C37E2BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80AD9B86-4234-42C5-AAC9-7E787C37E2BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22F72C67-6EF6-47D7-82A8-79A3FDE6466D}
+	EndGlobalSection
+EndGlobal
